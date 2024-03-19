@@ -13,8 +13,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Install Git
-      run: sudo apt-get install git -y
+    - name: Install Git and JQ
+      run: sudo apt-get install git jq -y
 
     - name: send update
       run: ./update.sh . 193.70.40.62:4242
