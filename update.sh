@@ -1,4 +1,12 @@
+##
+## EPITECH PROJECT, 2023
+## Arcade-Share
+## File description:
+## update.sh
+##
+
 #!/bin/bash
+
 
 repo_path=$1
 cd "$repo_path" || exit
