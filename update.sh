@@ -1,11 +1,9 @@
 #!/bin/bash
 
 repo_path=$1
-
 cd "$repo_path" || exit
 
 commit_message=$(git log -1 --pretty=%B)
-
 author_name=$(git log -1 --pretty=%an)
 
 temp_file=$(mktemp)
