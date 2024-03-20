@@ -39,17 +39,11 @@ namespace Arcade {
         END_GAME
     } gevent_t;
 
-    typedef enum {
-        UP = 0,
-        DOWN = 180,
-        RIGHT = 90,
-        LEFT = 270
-    } angle_t;
-
     typedef struct {
         uint8_t texture;
         uint16_t angle;
-        uint8_t offset;
+        uint8_t offsetX;
+        uint8_t offsetY;
     } cell_t;
 
     // the game grid for the position of the sprites ( gg ;) )
