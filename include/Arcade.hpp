@@ -35,8 +35,7 @@ namespace Arcade {
     // game event
     typedef enum {
         NONE,
-        TEMP_SUBW,
-        PERM_SUBW,
+        DISPLAY_SUBW,
         END_GAME
     } gevent_t;
 
