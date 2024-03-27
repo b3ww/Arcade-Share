@@ -19,9 +19,9 @@ namespace Arcade {
         // return the static const std::vector<std::string> for the game assets
         virtual const std::vector<std::string> &getAssets(void) const = 0;
         // update the game depending on the inputs and returns an event if there is one
-        // mouseInfo is nullptr if there is no mouse update
+        virtual gevent_t update(header_t &header, ggrid_t &grid, binflag_t binflag) = 0;
         virtual gevent_t update(header_t &header, ggrid_t &grid,
-            binflag_t binflag, const mouse_info_t *mouseInfo) = 0;
+            binflag_t binflag, const mouse_info_t &mouseInfo) = 0;
         virtual const std::string &getEventMessage(void) const = 0;
     };
 }
