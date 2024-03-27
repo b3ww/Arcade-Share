@@ -11,6 +11,7 @@
 #include <cstdint>
 #include <iostream>
 #include <vector>
+#include <string>
 
 // this is the width and height of the grid
 // you are free to change it
@@ -110,4 +111,12 @@ namespace Arcade {
         WINDOW_CLOSED = 0x400000000,
         WINDOW_TOO_SMALL = 0x800000000,
     } devent_t;
+
+    typedef struct lib_info_s {
+        enum {
+            GAME,
+            DISPLAY
+        } type;
+        std::string name;
+    } lib_info_t;
 }
