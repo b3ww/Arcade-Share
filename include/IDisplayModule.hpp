@@ -15,7 +15,7 @@ namespace Arcade {
     public:
         virtual ~IDisplayModule() = default;
 
-        // translate each string to a texture returns -1 if there is an error
+        // translate each string to a texture or throw an error if there it can't
         virtual void loadAssets(const std::vector<std::string> &assets) = 0;
         // returns a binary flag of inputs and events from the display lib
         virtual binflag_t updateEvent(void) = 0;

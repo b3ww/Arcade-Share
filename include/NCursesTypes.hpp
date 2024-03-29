@@ -7,6 +7,7 @@
 
 #include <ncurses.h>
 #include <array>
+#include <string>
 
 namespace Arcade {
     enum NCursesColor {
