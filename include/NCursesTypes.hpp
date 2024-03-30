@@ -9,6 +9,8 @@
 #include <array>
 #include <string>
 
+// Exemple de format d'asset : (#) (white, black) (bold, underline)
+
 namespace Arcade {
     enum NCursesColor {
         BLACK,
