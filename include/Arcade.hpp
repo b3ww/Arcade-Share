@@ -9,8 +9,8 @@
 
 #include <array>
 #include <cstdint>
+#include <iostream>
 #include <vector>
-#include <string>
 
 // this is the width and height of the grid
 // you are free to change it
