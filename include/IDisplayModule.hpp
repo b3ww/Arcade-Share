@@ -8,7 +8,6 @@
 #pragma once
 
 #include "Arcade.hpp"
-#include <cstdint>
 
 namespace Arcade {
     class IDisplayModule {
