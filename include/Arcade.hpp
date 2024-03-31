@@ -53,6 +53,7 @@ namespace Arcade {
     typedef uint64_t binflag_t;
 
     typedef enum {
+        NO_BUTTON,
         LEFT_BUTTON,
         MIDDLE_BUTTON,
         RIGHT_BUTTON,
@@ -64,7 +65,7 @@ namespace Arcade {
         uint64_t x;
         uint64_t y;
         button_t button;
-        int64_t scroll; // scroll negative if scrolling down, vice versa
+        int8_t scroll; // 1 scroll up, -1 scroll down, 0 no scroll
         bool isPressed;
         bool isReleased;
     } mouse_info_t;
