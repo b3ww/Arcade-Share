@@ -35,7 +35,8 @@ namespace Arcade {
     typedef enum {
         NONE,
         DISPLAY_SUBW,
-        END_GAME
+        END_GAME,
+        EXIT_ARCADE
     } gevent_t;
 
     typedef struct {
