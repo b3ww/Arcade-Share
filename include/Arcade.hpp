@@ -120,11 +120,13 @@ namespace Arcade {
         WINDOW_TOO_SMALL = 0x1000000000,
     } devent_t;
 
-    typedef struct lib_info_s {
-        enum {
-            GAME,
-            DISPLAY
-        } type;
-        std::string name;
+    typedef enum {
+        GAME,
+        DISPLAY
+    } lib_type_t;
+
+    typedef struct {
+        lib_type_t type;
+        char *name;
     } lib_info_t;
 }
