@@ -112,4 +112,12 @@ namespace Arcade {
         WINDOW_CLOSED = 0x800000000,
         WINDOW_TOO_SMALL = 0x1000000000,
     } devent_t;
+
+    typedef struct lib_info_s {
+        enum {
+            GAME,
+            DISPLAY
+        } type;
+        std::string name;
+    } lib_info_t;
 }
