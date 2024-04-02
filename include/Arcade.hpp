@@ -34,6 +34,7 @@ namespace Arcade {
     // game event
     typedef enum {
         NONE,
+        NEXT_LIB,
         DISPLAY_SUBW,
         END_GAME,
         EXIT_ARCADE
