@@ -42,7 +42,7 @@ namespace Arcade {
         GAME6,
         NEXT_LIB,
         DISPLAY_SUBW,
-        END_GAME,
+        GO_TO_MENU,
         EXIT_ARCADE
     } gevent_t;
 
