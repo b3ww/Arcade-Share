@@ -127,6 +127,6 @@ namespace Arcade {
 
     typedef struct {
         lib_type_t type;
-        char *name;
+        std::string name;
     } lib_info_t;
 }
