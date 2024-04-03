@@ -15,7 +15,7 @@ namespace Arcade {
         virtual ~IGameModule() = default;
 
         // init the header and the grid and return an event if there is one
-        virtual gevent_t init(header_t &header, ggrid_t &grid) = 0;
+        virtual void init(header_t &header, ggrid_t &grid) = 0;
         // return the static const std::vector<std::string> for the game assets
         virtual const std::vector<std::string> &getAssets(void) const = 0;
         // update the game depending on the inputs and returns an event if there is one
