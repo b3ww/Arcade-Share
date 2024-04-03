@@ -133,7 +133,8 @@ namespace Arcade {
 
     typedef enum {
         GAME,
-        DISPLAY
+        DISPLAY,
+        MENU
     } lib_type_t;
 
     typedef struct {
