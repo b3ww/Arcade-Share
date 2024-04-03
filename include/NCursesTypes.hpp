@@ -5,6 +5,8 @@
 ** NCursesTypes.hpp
 */
 
+#pragma once
+
 #include <ncurses.h>
 #include <array>
 #include <string>
