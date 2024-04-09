@@ -1,0 +1,1 @@
+(t) (white, black) (no_repeat)
